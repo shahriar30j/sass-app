@@ -1,0 +1,17 @@
+body {
+  background: tomato;
+  font-family: sans-serif, "cursive";
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container nav ul li {
+  font-size: 1em;
+}
+.container nav a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
