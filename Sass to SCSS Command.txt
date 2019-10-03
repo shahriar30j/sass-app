@@ -1,0 +1,38 @@
+after installing nodeJS
+
+(-y for all default yes)
+create package.Json file
+npm init -y
+
+
+install sass
+
+(-D for Dev Dependencies)
+
+npm i sass -D
+
+
+command source_directory/file 	destination_directory 	realtime_convertion
+sass 	./sass/index.scss 	./css/style.css 	--watch
+
+
+
+command source_directory:destination_directory realtime_convertion
+sass 	sass:css 				--watch
+
+sass commands
+sass -h
+
+
+sass -convert example.scss example.sass
+sass -convert Example.sass Example.scss
+sass Example.scss:Example.css
+sass --watch Example.scss:Example.css
+sass --watch Directory:CSS
+sass Example.scss:Example.css --style compact
+sass Example.scss:Example.css --style compressed
+sass Example.scss:Example.css --style expanded
+sass Example.scss:Example.css --style expanded --sourcemap=none
+sass --watch Example.scss:Example.css --style compact --sourcemap=none
+
+
